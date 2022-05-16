@@ -1,0 +1,5 @@
+import web app2
+class Main page(webapp2.RequestHandler):
+def get(self):
+self.response.write("Hello world")
+app=webapp2.WSGIApllication(['/',MainPage),debug=True)
